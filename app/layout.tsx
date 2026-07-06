@@ -19,9 +19,17 @@ const body = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: " Naail — Frontend Developer",
+  title: "portofolio | Naail Rizq Widiyanto",
   description:
-    "Frontend Developer specializing in React, Next.js, and modern web technologies. Building thoughtful, accessible digital products.",
+    "Frontend Developer specializing in React, Next.js, TypeScript, and UI/UX Design.",
+  keywords: [
+    "Frontend Developer",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Portfolio",
+    "UI UX",
+  ],
 };
 
 export default function RootLayout({

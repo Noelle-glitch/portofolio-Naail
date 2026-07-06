@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const links = [
   { label: "Work", href: "#projects" },
@@ -17,6 +18,25 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-background/85 backdrop-blur-[2px] border-b border-line">
       <div className="container-cottage flex items-center justify-between h-20">
 
+        {/* Logo */}
+        <a href="#" className="flex items-center gap-3">
+          <Image
+            src="/icon/bungahejo.svg"
+            alt="flowers green"
+            width={40}
+            height={40}
+            className="rounded-full object-cover"
+          />
+
+          <div className="leading-none">
+            <h1 className="text-lg font-semibold text-ink"> MY PORTFOLIO</h1>
+            <p className="text-xs text-muted">
+              Frontend Developer
+            </p>
+          </div>
+        </a>
+
+        {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-10">
           {links.map((l) => (
             <a
@@ -29,6 +49,7 @@ export default function Header() {
           ))}
         </nav>
 
+        {/* Mobile Button */}
         <button
           aria-label="Toggle navigation"
           onClick={() => setOpen((v) => !v)}
@@ -39,6 +60,7 @@ export default function Header() {
         </button>
       </div>
 
+      {/* Mobile Menu */}
       {open && (
         <nav className="md:hidden container-cottage pb-6 flex flex-col gap-4">
           {links.map((l) => (
