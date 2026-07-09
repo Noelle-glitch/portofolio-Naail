@@ -7,7 +7,7 @@ export const projects = [
     linkType: "github",
     linkUrl: "https://github.com/Noelle-glitch/ventara-baru",
     demo: "https://ventara-deploy.vercel.app/",
-    image: "/ventara.png",
+    image: "/ventara.svg",
   },
   {
     title: "Simjur — digital event application for campus",
@@ -16,7 +16,7 @@ export const projects = [
     tech: ["React", "TypeScript", "supabase", "Tailwind CSS"],
     linkType: "github",
     linkUrl: "https://github.com",
-    image: "/simjur.png",
+    image: "/simjur.svg",
   },
   {
     title: "Foodease — Nutrition and recipe app for health-conscious users",
