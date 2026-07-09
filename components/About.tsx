@@ -20,7 +20,7 @@ export default function About() {
                 style={{ borderRadius: "40% 60% 55% 45% / 50% 45% 55% 50%" }}
               >
             <Image
-              src="/mukanaail.jpeg"
+              src="/icon/naail.jpeg"
               alt="Naail Rizq Widiyanto"
               fill
               className="object-cover"
