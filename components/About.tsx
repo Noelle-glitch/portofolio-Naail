@@ -18,7 +18,7 @@ export default function About() {
           <div
                 className="w-full aspect-[4/5] relative overflow-hidden"
                 style={{ borderRadius: "40% 60% 55% 45% / 50% 45% 55% 50%" }}
-              >
+                >
             <Image
               src="/icon/naail.jpeg"
               alt="Naail Rizq Widiyanto"
