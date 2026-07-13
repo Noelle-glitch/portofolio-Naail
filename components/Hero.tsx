@@ -18,8 +18,8 @@ const handleDownload = () => {
 
   setTimeout(() => {
     const link = document.createElement("a");
-    link.href = "/resume/Naail_Rizq_CV_Front_developer (1).pdf";
-    link.download = "Naail_Rizq_CV_Front_developer (1).pdf";
+    link.href = "/resume/Naail_Rizq_Widiyanto_CV.pdf";
+    link.download = "Naail_Rizq_Widiyanto_CV.pdf";
 
     document.body.appendChild(link);
     link.click();

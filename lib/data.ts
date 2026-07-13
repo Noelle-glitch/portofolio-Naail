@@ -44,5 +44,5 @@ export const contact = {
   email: "naailr12@gmail.com",
   linkedin: "https://linkedin.com/in/naail-rizq",
   github: "https://github.com/Noelle-glitch",
-  cv: "/resume/Naail_Rizq_CV_Front_developer (1).pdf",
+  cv: "/resume/Naail_Rizq_Widiyanto_CV.pdf",
 };
